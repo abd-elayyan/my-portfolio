@@ -1,6 +1,10 @@
-export default function GitHubIcon({ size = 64, color = "#000" }) {
+export default function GitHubIcon({
+  size = 64,
+  color = "#000",
+  className = "bg-white/10 rounded-full",
+}) {
   return (
-    <div className="bg-white/10 rounded-full">
+    <div className={`${className}`}>
       <svg
         width={size}
         height={size}

@@ -1,6 +1,6 @@
-export default function CodeIcon({
+export default function InstagramIcon({
   size = 64,
-  color = "#ffffff",
+  color = "#000",
   className = "bg-white/10 rounded-full",
 }) {
   return (
@@ -12,13 +12,17 @@ export default function CodeIcon({
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path
-          d="M24 20L11 32L24 44M40 20L53 32L40 44"
+        <rect
+          x="14"
+          y="14"
+          width="36"
+          height="36"
+          rx="10"
           stroke={color}
           strokeWidth="3.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
         />
+        <circle cx="32" cy="32" r="9" stroke={color} strokeWidth="3.5" />
+        <circle cx="41.5" cy="22.5" r="2" fill={color} />
       </svg>
     </div>
   );
