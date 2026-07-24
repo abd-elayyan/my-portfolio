@@ -15,9 +15,12 @@ export const Button = ({
   const selectStyle = `${baseStyle} ${varients[varient]} ${ClassName}`;
 
   if (href) {
-    <Link href={href} className={selectStyle}>
-      {title}{" "}
-    </Link>;
+    return (
+      <Link href={href} className={selectStyle}>
+        {title}
+        {""}
+      </Link>
+    );
   }
 
   return (
