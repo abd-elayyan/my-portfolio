@@ -25,8 +25,10 @@ export default function RootLayout({ children }) {
       <body
         className={`text-white ${pacifico.variable} ${poppins.variable} font-poppins`}
       >
-        <Header />
-        {children}
+        <div className="relative">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );
