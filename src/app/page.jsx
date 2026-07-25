@@ -117,7 +117,7 @@ export default function Home() {
       <p className="h-[0.1] w-360 bg-[#595959] mx-auto mt-14 "></p>
       <div className="text-[16px] flex justify-around px-20 gap-215 my-10">
         <p>Abdulrahman Wardeh</p>
-        <div className="flex  w-53">
+        <div className="flex  w-53 gap-10">
           <p>Privacy Policy</p>
           <p>Support</p>
         </div>

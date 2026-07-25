@@ -1,4 +1,3 @@
-import ProjectCard from "@/Components/ui/Card";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,9 +10,9 @@ const AboutMe = () => {
           My Selected Projects
         </h1>
         <p className="text-[24px] text-center">
-          A full-stack project showcasing end-to-end development — from
-          intuitive UI/UX design to robust backend architecture — built with
-          modern technologies for performance, scalability, and clean code.
+          A full-stack project showcasing end-to-end elopment — from intuitive
+          UI/UX design to robust backend architecture — built with modern
+          technologies for performance, scalability, and clean code.
         </p>
       </div>
 

@@ -32,7 +32,7 @@ const AboutMe = () => {
             <p className="text-xl">2024 August - Present</p>
           </div>
           {/* 2 */}
-          <dev className="flex items-center">
+          <div className="flex items-center">
             <h6 className="border border-white rounded-full">
               {""}
               <p className="w-4 h-4 rounded-full bg-white m-1.5"></p>
@@ -42,9 +42,9 @@ const AboutMe = () => {
               Full Stack Developer Freelance
             </h1>
             <p className="text-xl">2024 January - Present</p>
-          </dev>
+          </div>
           {/* 3 */}
-          <dev className="flex items-center">
+          <div className="flex items-center">
             <h6 className="border border-white rounded-full">
               {""}
               <p className="w-4 h-4 rounded-full bg-white m-1.5"></p>
@@ -54,7 +54,7 @@ const AboutMe = () => {
               Full Stack Developer Internship
             </h1>
             <p className="text-xl">2024 March - 2024 July</p>
-          </dev>
+          </div>
         </div>
       </div>
 
